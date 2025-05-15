@@ -2,17 +2,17 @@ import logoBranca from "../assets/logo-branca.png";
 const Footer = () => {
     return (
         <footer>
-            <div class="rodape">
-                <div class="conteudo">
+            <div className="rodape">
+                <div className="conteudo">
                     <img src={logoBranca} alt="Digital Store"/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                        <div class="redes">
+                        <div className="redes">
                             <a href=""><box-icon type='logo' name='facebook'></box-icon></a>
                             <a href=""><box-icon name='instagram' type='logo'></box-icon></a>
                             <a href=""><box-icon name='twitter' type='logo'></box-icon></a>
                         </div>
                 </div>
-                <div class="sitemap">
+                <div className="sitemap">
                     <div>
                         <h5>Informação</h5>
                         <a href="">Sobre Drip Store</a>
